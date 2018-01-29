@@ -1,10 +1,12 @@
-public class Rectagular {
-    protected Point lowLeft;
-    protected Point lowRight;
-    protected Point topLeft;
-    protected Point topRight;
+package task1;
 
-    Rectagular(Point lowLeft, Point topRight) {
+public class Rectagular {
+    Point lowLeft;
+    Point lowRight;
+    Point topLeft;
+    Point topRight;
+
+    public Rectagular(Point lowLeft, Point topRight) {
         this.lowLeft = lowLeft;
         this.lowRight = new Point(topRight.x, lowLeft.y);
         this.topRight = topRight;

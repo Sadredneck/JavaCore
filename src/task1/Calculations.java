@@ -1,4 +1,4 @@
-import java.nio.channels.Pipe;
+package task1;
 
 public class Calculations {
     public static float calculateSquare(Rectagular rectagular) {

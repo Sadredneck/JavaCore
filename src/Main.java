@@ -1,3 +1,6 @@
+import task1.Calculations;
+import task1.Point;
+import task1.Rectagular;
 
 public class Main {
 
