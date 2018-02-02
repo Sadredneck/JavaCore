@@ -1,6 +1,5 @@
-import task1.Calculations;
-import task1.Point;
-import task1.Rectagular;
+import task1.squares.Point;
+import task1.squares.Rectagular;
 
 public class Main {
 
@@ -13,14 +12,12 @@ public class Main {
                 new Rectagular(new Point(2, 2), new Point(3, 3)));
     }
 
-    public static void doTask1(Point point1, Point point2) {
+    static void doTask1(Point point1, Point point2) {
         Rectagular sampleRect = new Rectagular(point1, point2);
-        float square = Calculations.calculateSquare(sampleRect);
-        System.out.println(square);
+        System.out.println(sampleRect.calculateSpace());
     }
 
-    public static void doTask2(Rectagular rectagular1, Rectagular rectagular2) {
-        float square = Calculations.calculateShareSquare(rectagular1, rectagular2);
-        System.out.println(square);
+    static void doTask2(Rectagular rectagular1, Rectagular rectagular2) {
+        System.out.println(rectagular1.calculateCommonSpace(rectagular2));
     }
 }
