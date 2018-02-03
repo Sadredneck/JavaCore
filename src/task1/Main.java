@@ -1,9 +1,12 @@
+package task1;
+
 import task1.squares.Point;
 import task1.squares.Rectagular;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
+
         doTask1(new Point(0,0),new Point(1,0));
 
         doTask2(new Rectagular(new Point(-1, -1), new Point(1, 1)),
