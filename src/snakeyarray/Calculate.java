@@ -1,4 +1,4 @@
-package SnakeyArray;
+package snakeyarray;
 
 public class Calculate {
     private enum Direction {LEFT, RIGHT, UP, DOWN}

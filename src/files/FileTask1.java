@@ -3,8 +3,9 @@ package files;
 import java.io.*;
 
 public class FileTask1 {
-    static File mediaCache = new File("C:\\Users\\1\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Media Cache");
-    static File cache = new File("C:\\Users\\1\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache");
+    private static File mediaCache = new File("C:\\Users\\1\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Media Cache");
+    private static File cache = new File("C:\\Users\\1\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache");
+
 
     public static void doAudioPiracy(File resDir) {
         if (!resDir.exists())

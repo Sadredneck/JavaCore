@@ -1,4 +1,4 @@
-package SnakeyArray;
+package snakeyarray;
 
 public class Main {
     public static void main(String[] args) {
